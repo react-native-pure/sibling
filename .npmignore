@@ -7,3 +7,4 @@ jest.config.js
 .coveralls.yml
 package-lock.json
 .releaserc
+.badge.json
