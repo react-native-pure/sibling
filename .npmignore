@@ -6,3 +6,4 @@ babel.config.js
 jest.config.js
 .coveralls.yml
 package-lock.json
+.releaserc
