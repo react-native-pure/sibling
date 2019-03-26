@@ -1,0 +1,8 @@
+.idea
+node_modules
+package-lock.json
+coverage
+babel.config.js
+jest.config.js
+.coveralls.yml
+package-lock.json
