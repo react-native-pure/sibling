@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "cm":"git-cz"
+    "cm": "git-cz"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,15 @@
   "homepage": "https://github.com/react-native-pure/sibling#readme",
   "devDependencies": {
     "commitizen": "^3.0.7",
-    "cz-conventional-changelog": "^2.1.0"
+    "cz-conventional-changelog": "^2.1.0",
+    "fbemitter": "^2.1.1",
+    "react": "16.0.0-alpha.12",
+    "react-native": "^0.47"
+  },
+  "peerDependencies": {
+    "fbemitter": "^2",
+    "react-native": ">= 0.47.0",
+    "react": ">= 16.0.0"
   },
   "config": {
     "commitizen": {
