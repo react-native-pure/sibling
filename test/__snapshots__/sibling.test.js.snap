@@ -31,6 +31,8 @@ exports[`append/remove Sibling element 2`] = `
 </View>
 `;
 
+exports[`can not append when unmount 1`] = `null`;
+
 exports[`mount <WrapperComponent/> 1`] = `
 <View
   style={

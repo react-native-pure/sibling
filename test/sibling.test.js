@@ -67,3 +67,15 @@ test(`update sibling element`, () => {
     tree = component.toJSON();
     expect(tree).toMatchSnapshot();
 });
+
+test(`can not append when unmount`, () => {
+    const component = renderer.create(
+        <WrapperComponent>
+        </WrapperComponent>
+    );
+    component.unmount();
+    Sibling.append(
+        <Text>hello</Text>
+    );
+    expect(component.toJSON()).toMatchSnapshot();
+});
