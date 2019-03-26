@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`append/remove Sibling element 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <Text>
+    Append Sibling Element
+  </Text>
+  <Text>
+    I am a sibling element
+  </Text>
+</View>
+`;
+
+exports[`append/remove Sibling element 2`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <Text>
+    Append Sibling Element
+  </Text>
+</View>
+`;
+
+exports[`mount <WrapperComponent/> 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+/>
+`;
+
+exports[`mount <WrapperComponent/> with children 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <Text>
+    abc
+  </Text>
+</View>
+`;
+
+exports[`update sibling element 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <Text>
+    
+  </Text>
+</View>
+`;
+
+exports[`update sibling element 2`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <Text>
+    hello
+  </Text>
+</View>
+`;

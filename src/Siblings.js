@@ -41,7 +41,9 @@ export default class Siblings extends React.PureComponent<void, State> {
             SiblingEmitter.addListener(SiblingEvents.remove, (id: number) => {
                 this.setState(({elements}) => {
                     delete elements[id];
-                    return {elements};
+                    return {
+                        elements: {...elements}
+                    };
                 })
             })
         )
