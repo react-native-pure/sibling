@@ -1,5 +1,5 @@
 import * as React from "react"
-import {Text} from "react-native"
+import {Text, Animated} from "react-native"
 import renderer from 'react-test-renderer'
 import WrapperComponent from "../src/WrapperComponent"
 import Sibling from "../src/Sibling"
@@ -79,3 +79,14 @@ test(`can not append when unmount`, () => {
     );
     expect(component.toJSON()).toMatchSnapshot();
 });
+
+// test(`append Animated.Text`, () => {
+//     const component = renderer.create(
+//         <WrapperComponent>
+//         </WrapperComponent>
+//     );
+//     Sibling.append(
+//         <Animated.Text>Animated Text</Animated.Text>
+//     );
+//     expect(component.toJSON()).toMatchSnapshot();
+// });
